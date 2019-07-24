@@ -17,7 +17,7 @@ class Number(Thing):
     represented_as_hexadecimal: Optional[bool] = None  # represented as a hex number
 
 @dataclass
-class Interval(Thing):
+class NumberInterval(Thing):
     from_value: FloatOrInt = None
     to_value: FloatOrInt = None
     start_is_inclusive: Optional[bool] = True  # default
